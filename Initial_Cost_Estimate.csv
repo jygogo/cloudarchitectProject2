@@ -1,8 +1,20 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate-1,US East (Ohio),Amazon EC2,0,2099.8433,25198.12,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 8, Peak: 16, Duration of peak: 8 Hr 00 Min)), Advance EC2 instance (c5a.xlarge), Data transfer cost (1126.31), Pricing strategy (On-Demand and Reserved 1 Year  None upfront)"
-My Estimate-1,US East (Ohio),Amazon RDS for SQL server,0,7017.68,84212.16,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Number of nodes (2), Instance type (db.m4.xlarge), Deployment option (Multi-AZ), Pricing model (Reserved), License (License included), Database edition (Enterprise), Term (1yr), Purchase option (No Upfront)"
-My Estimate-1,US East (Ohio),S3 Standard,0,5.47,65.64,USD,S3 Standard storage (100 GB per month)
-My Estimate-1,US East (Ohio),Data Transfer,0,92.07,1104.84,USD,"Data Transfer, Data transfer cost (92.07)"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon EC2,0,1454.7232999999999,17456.68,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB),  Inbound (from: Internet) 5 TB per month 
+ Outbound (to: Internet) 5 TB per month 
+ Intra-Region 1 TB per month 
+, Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 8, Peak: 16, Duration of peak: 8 Hr 00 Min))"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon RDS for SQL server,0,7114.96,85379.52,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Number of nodes (2), Instance type (db.m4.xlarge), Deployment option (Multi-AZ), Pricing model (Reserved), License (License included), Database edition (Enterprise), Term (1yr), Purchase option (No Upfront), Additional backup storage (1 TB)"
+Initial_Cost_Estimate,US East (N. Virginia),S3 Standard,0,47.1,565.20,USD,S3 Standard storage (2 TB per month)
+Initial_Cost_Estimate,US East (N. Virginia),Data Transfer,0,92.07,1104.84,USD," Inbound (from: Internet) 1 TB per month 
+ Outbound (to: Internet) 1 TB per month 
+"
+Initial_Cost_Estimate,US East (N. Virginia),Elastic Load Balancing,0,71.78,861.36,USD,Number of Application Load Balancers (2)
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Elastic IP,0,0,0.00,USD,"Number of EC2 instances (16), Number of EIPs per instance (1)"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,184.23,2210.76,USD," Inbound (from: Internet) 2 TB per month 
+ Outbound (to: Internet) 2 TB per month 
+ Intra-Region 0 TB per month 
+"
+Initial_Cost_Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,493.65,5923.80,USD,Number of NAT Gateways (1)
 
 
 
